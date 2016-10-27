@@ -12,6 +12,7 @@ public class Sample extends Thread {
 		Sample s2=new Sample();
 		s1.start();
 		s2.start();
+		System.out.println("Hai from kiran");
 
 	}
 
