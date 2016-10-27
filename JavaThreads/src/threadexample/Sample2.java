@@ -8,6 +8,7 @@ public class Sample2 {
 		Thread t2=new Thread(new threads());
 		t1.start();
 		t2.start();
+                System.out.println("hello this is from Gowtham");
 	}
 
 }
